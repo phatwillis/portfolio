@@ -168,7 +168,7 @@ footer a:not(.nav-link) {
   background-color: #007bff;
   border: none;
   color: #fff;
-    padding: 10px 20px;
+    padding: 100px 20px;
   border-radius: 20px; /* Add rounded border-radius */
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
@@ -180,6 +180,6 @@ footer a:not(.nav-link) {
   color: #fff;
   border-radius: 20px; /* Keep rounded border-radius on hover */
 }
-
+ <div class="dropdown">
     
     
