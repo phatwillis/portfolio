@@ -25,8 +25,8 @@ app.post('/send-email', (req, res) => {
   const { name, email, message } = req.body;
 
   const mailOptions = {
-    from: 'williamsmicheal237@gmail.com',
-    to: 'your_destination_email_address',
+    from: 'email',
+    to: 'williamsmicheal237@gmail.com',
     subject: 'New Message from Website Contact Form',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
@@ -41,8 +41,4 @@ app.post('/send-email', (req, res) => {
       res.status(200).json({ success: 'Email sent successfully' });
     }
   });
-});
-
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
 });
